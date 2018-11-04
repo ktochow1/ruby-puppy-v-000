@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all
-    @@all.map do |dog|
+    @@all.map! do |dog|
       puts dog
     end
   end 
