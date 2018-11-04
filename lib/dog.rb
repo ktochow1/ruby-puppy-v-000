@@ -14,7 +14,7 @@ class Dog
 
   def self.all
     @@all.map! do |dog|
-      puts "#{dog}""
+      puts "#{dog}"
     end
   end 
 end 
