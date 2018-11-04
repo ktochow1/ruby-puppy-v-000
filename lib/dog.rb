@@ -17,4 +17,5 @@ class Dog
       puts "#{dog}"
     end
   end 
+
 end 
