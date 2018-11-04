@@ -11,7 +11,8 @@ class Dog
     @name = name
     @@all << self
   end
-  
-  
-  
+
+  def self.all
+    puts selff
+  end 
 end 
